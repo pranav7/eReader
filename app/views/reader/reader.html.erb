@@ -1,0 +1,7 @@
+<h1><%= @title %></h1>
+<% unless @author.nil? %>
+	<h4>By <%= @author %></h4>
+<% end %>
+<div id="news-content">
+	<%= simple_format @content%>
+</div>

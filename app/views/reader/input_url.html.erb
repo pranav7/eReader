@@ -1,0 +1,6 @@
+<div class="center" align="center">
+	<%= form_tag '/reader' do %>
+		<%= text_field_tag 'input_url', nil, placeholder: 'Enter URL to scrape', :class => "text-field" %>
+		<%= submit_tag 'Scrape!', :class => "button" %>
+	<% end %>
+</div>

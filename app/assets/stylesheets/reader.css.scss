@@ -1,0 +1,100 @@
+// Place all the styles related to the reader controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+$font-stack: 'Roboto Slab', serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-content: 'Enriqueta', serif;
+$font-heading: 'Chivo', sans-serif;
+$font-roboto-condensed: 'Roboto Condensed', sans-serif;
+$content-color: #4E5860;
+
+/* Main Content */
+.content {
+	padding: 7em;
+	word-wrap: break-word;
+
+	// Main Headings
+	h1, h2 {
+		font-family: $font-heading;
+		color: #081E30;
+		//font-weight: 900;
+		word-wrap: break-word;
+		margin-top: 1em;
+		font-size: 3.125em;
+		letter-spacing: -0.03em;
+		line-height: 1.15;
+	}
+
+	// Sub Heading
+	h4 {
+		font-family: $font-stack;
+		font-weight: 300;
+		font-size: 1.7em;
+		color: #999999;
+		line-height: 1.15;
+	}
+}
+
+#news-content{
+	margin-bottom: 8em;
+	padding: 0.5em;
+	// Content
+	p {
+		font-family: $font-content;
+		font-style: normal;
+		font-size: 125%;
+		color: $content-color;
+		line-height: 1.8;
+		letter-spacing: 0.01em;
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.news-date {
+	font-family: $font-roboto-condensed;
+	font-size: 85%;
+	color: #999999;
+	margin-right: 2em;
+}
+
+.button {
+	background: #c0392b;
+	border: none;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: 120%;
+	font-family: $font-roboto-condensed;
+	color: #fff;
+}
+
+.button:hover {
+	background: #e74c3c;
+}
+
+.button:active {
+	border: none;
+}
+
+.text-field {
+    border: solid 1px #ecf0f1;
+    width: 80%;
+    outline: none; 
+    padding: 1em;
+    font-size: 120%;
+	font-family: $font-roboto-condensed;
+	font-weight: 400;
+	color: #2c3e50;
+}
+
+.center {
+	vertical-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
